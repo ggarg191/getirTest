@@ -1,0 +1,24 @@
+{
+    "name": "getir-assignment",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "directories": {
+        "test": "tests"
+    },
+    "scripts": {
+        "start": "npm run prod",
+        "dev": "npm run dev",
+        "test": "jest"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.24.0",
+        "express": "^4.17.2",
+        "mongoose": "^6.1.4"
+    },
+    "devDependencies": {
+        "jest": "^27.4.5"
+    }
+}
